@@ -1,0 +1,14 @@
+main{
+    height:80vh;
+    width:100%;   
+    background-color: aquamarine; 
+    background-image: url("assets/images/bg.jpg");
+    background-position: center center;    
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-content:center ;
+    background-color: rgb(44, 103, 155);
+}
