@@ -1,14 +1,23 @@
-main{
+body{
+    background-color: black;
+}
+.head{
     height:80vh;
-    width:100%;   
-    background-color: aquamarine; 
+    width:100%;  
     background-image: url("assets/images/bg.jpg");
-    background-position: center center;    
+    background-position: center center; 
+    background-repeat: no-repeat;  
+    opacity:0.6;
 }
 
 nav{
     display:flex;
     justify-content:space-between;
-    align-content:center ;
-    background-color: rgb(44, 103, 155);
+    align-items:center ;
+    background-color: rgba(23, 23, 23, 0.4);
+}
+
+.hero{
+    color:white;
+    text-align: center;
 }
